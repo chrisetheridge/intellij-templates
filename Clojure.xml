@@ -1,0 +1,7 @@
+<templateSet group="Clojure">
+  <template name="comm" value="(comment &#10;    (require '[cognician.base.datomic :as datomic]&#10;             '[datomic.api :as d])&#10;    $SELECTION$$END$         &#10;    )" description="Comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+</templateSet>
